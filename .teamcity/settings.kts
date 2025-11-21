@@ -74,7 +74,7 @@ object Build : BuildType({
         perfmon {
         }
         merge {
-            branchFilter = "+:feature/add_reply"
+            branchFilter = "+:refs/heads/feature/add_reply"
         }
     }
 })
